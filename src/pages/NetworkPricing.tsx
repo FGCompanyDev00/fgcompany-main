@@ -280,7 +280,7 @@ const NetworkPricing = () => {
               <Button 
                 className="border-2 border-white text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl backdrop-blur-sm"
               >
-                Call: +60 12-345 6789
+                Call: +60 10-802 7034
               </Button>
             </div>
           </div>

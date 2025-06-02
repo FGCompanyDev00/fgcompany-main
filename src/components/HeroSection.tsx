@@ -115,14 +115,14 @@ const HeroSection = () => {
                   </div>
 
                   <div className="space-y-3 sm:space-y-4">
-                    <a href="tel:+60123456789" className="block">
-                      <Button className="w-full bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-blue-800 focus:outline-none">
+                    <Button asChild className="w-full bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-blue-800 focus:outline-none">
+                      <a href="tel:+60108027034" className="block">
                         <Phone className="w-5 h-5 mr-2 animate-bounce" />
-                        Call Now: +60 12-345 6789 (Mr. Faiz)
-                      </Button>
-                    </a>
+                        Call Now: +60 10-802 7034 (Mr. Faiz)
+                      </a>
+                    </Button>
                     
-                    <a href="https://wa.me/60123456789" target="_blank" rel="noopener noreferrer" className="block">
+                    <a href="https://wa.me/60108027034" target="_blank" rel="noopener noreferrer" className="block">
                       <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-blue-800 focus:outline-none">
                         <MessageCircle className="w-5 h-5 mr-2" />
                         WhatsApp Chat
